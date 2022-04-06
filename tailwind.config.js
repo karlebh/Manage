@@ -15,6 +15,7 @@ module.exports = {
                 barlow: 'Barlow',
                 fraunces: 'Fraunces',
                 nunito: 'Nunito',
+                lato: 'Lato'
             },
             colors: {
               'bright-red': 'hsl(12, 88%, 59%)',
