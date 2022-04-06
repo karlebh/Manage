@@ -1,19 +1,29 @@
+<!-- -->
 <template>
-  <div>
-      <button class="fixed z-30 w-full h-full inset-0 navbar cursor-default mt-10 sm:mt-0">
-        <div class="bg-gray-100 w-10/12 pt-9 pb-7 mx-auto -mt-56">
-          <a class="block text-center font-semibold" href="#">Pricing</a>
-          <a class="block text-center mt-5 font-semibold" href="#">Products</a>
-          <a class="block text-center mt-5 font-semibold" href="#">About US</a>
-          <a class="block text-center mt-5 font-semibold" href="#">Careers</a>
-          <a class="block text-center mt-5 font-semibold" href="#">Community</a>
-        </div>
-      </button>
-  </div>
+  <div class="lg:hidden fixed navbar z-40 w-full w-full h-full inset-0">
+    <button @click="$emit('closeNav')" class="fixed navbar z-40 w-full w-full h-full inset-0 cursor-pointer"></button>
+     <div class="bg-gray-100 w-10/12 py-7 mx-auto mt-40 relative z-50">
+      <a class="block text-center font-semibold" href="#">Pricing</a>
+      <a class="block text-center mt-5 font-semibold" href="#">Products</a>
+      <a class="block text-center mt-5 font-semibold" href="#">About US</a>
+      <a class="block text-center mt-5 font-semibold" href="#">Careers</a>
+      <a class="block text-center mt-5 font-semibold" href="#">Community</a>
+    </div>
+</div>
 </template>
+
+<script>
+  // import Logo from '@/components/Logo'
+
+  export default {
+    components: {
+      // Logo
+    }
+  }
+</script>
 
 <style scoped>
   .navbar {
-     background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
-  }  
+   background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+ }  
 </style>

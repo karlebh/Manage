@@ -13,7 +13,7 @@
     <!-- Moile Header -->
     <header class="lg:hidden relative">
       <svg class="absolute left-10 -top-64 md:hidden" xmlns="http://www.w3.org/2000/svg" width="814" height="814"><rect width="436" height="970" x="774" y="-62" fill="#FFF0EC" fill-rule="evenodd" rx="218" transform="rotate(45 718.814 -291.157)"/></svg>
-      <div class="flex justify-between px-8 pt-14 pb-5 relative z-40">
+      <div class="flex justify-between px-8 pt-14 pb-5 relative z-50">
         <Logo/>
         <button @click="isOpen = !isOpen">
           <svg v-if="!isOpen" xmlns="http://www.w3.org/2000/svg" width="25" height="18"><g fill="#242D52" fill-rule="evenodd"><path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z"/></g></svg>
