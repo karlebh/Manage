@@ -3,7 +3,7 @@
 		<div class="bg-bright-red py-24 md:py-14">
 			<div class="md:max-w-6xl md:mx-auto md:flex md:justify-between md:px-5 xl:px-0">
 				<div class="mx-auto md:mx-0 max-w-md">
-					<h1 class="leading-tight font-semibold text-gray-100 text-5xl text-center md:text-4xl md:text-left">Simplify how your team works today.</h1>
+					<h1 class="leading-tight font-semibold text-gray-100 text-5xl text-center md:text-4xl md:text-left mx-4 md:mx-0">Simplify how your team works today.</h1>
 				</div>
 				<div class="flex justify-center items-center">
 					<button
